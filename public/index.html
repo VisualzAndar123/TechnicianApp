@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnicianApp - Business Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-tools"></i>
+                <span>TechnicianApp</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Manage Your Technician Business <span class="highlight">Efficiently</span></h1>
+                <p class="hero-subtitle">All-in-one solution for customer management, scheduling, invoicing, and inventory tracking.</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Download APK</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-preview">
+                            <div class="app-header">
+                                <span>TechnicianApp</span>
+                                <div class="status-bar">
+                                    <span>9:41</span>
+                                    <div class="status-icons">
+                                        <i class="fas fa-signal"></i>
+                                        <i class="fas fa-wifi"></i>
+                                        <i class="fas fa-battery-full"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-content">
+                                <div class="app-tab active">Home</div>
+                                <div class="app-tab">Customers</div>
+                                <div class="app-tab">Agenda</div>
+                                <div class="app-tab">Finances</div>
+                                <div class="app-screen">
+                                    <div class="app-item">
+                                        <i class="fas fa-calendar-check"></i>
+                                        <span>Today's Appointments</span>
+                                        <span class="badge">3</span>
+                                    </div>
+                                    <div class="app-item">
+                                        <i class="fas fa-users"></i>
+                                        <span>Customer Database</span>
+                                        <span class="badge">127</span>
+                                    </div>
+                                    <div class="app-item">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span>Monthly Revenue</span>
+                                        <span class="value">$4,250</span>
+                                    </div>
+                                    <div class="app-item">
+                                        <i class="fas fa-boxes"></i>
+                                        <span>Inventory</span>
+                                        <span class="badge warning">5 Low</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features for Your Business</h2>
+            <p class="section-subtitle">Everything you need to manage your technician business in one place</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Customer Management</h3>
+                    <p>Store customer details, work history, locations, and notes in an organized database.</p>
+                    <ul class="feature-list">
+                        <li>Customer profiles with contact info</li>
+                        <li>Work history tracking</li>
+                        <li>Location mapping</li>
+                        <li>Customer categorization</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Smart Scheduling</h3>
+                    <p>Plan your appointments and chores with an intuitive calendar interface.</p>
+                    <ul class="feature-list">
+                        <li>Daily and monthly views</li>
+                        <li>Route optimization</li>
+                        <li>Automatic reminders</li>
+                        <li>Status tracking</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Invoicing & Finances</h3>
+                    <p>Create professional invoices and track your income and expenses.</p>
+                    <ul class="feature-list">
+                        <li>PDF invoice generation</li>
+                        <li>Income/expense tracking</li>
+                        <li>Financial reports</li>
+                        <li>Tax preparation tools</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>Inventory Management</h3>
+                    <p>Keep track of your parts and supplies with barcode scanning capability.</p>
+                    <ul class="feature-list">
+                        <li>Stock level tracking</li>
+                        <li>Barcode scanning</li>
+                        <li>Low stock alerts</li>
+                        <li>Supplier management</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Business Analytics</h3>
+                    <p>Gain insights into your business performance with detailed statistics.</p>
+                    <ul class="feature-list">
+                        <li>Revenue charts</li>
+                        <li>Customer analytics</li>
+                        <li>Performance metrics</li>
+                        <li>Export capabilities</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Notifications</h3>
+                    <p>Stay on top of your business with timely reminders and alerts.</p>
+                    <ul class="feature-list">
+                        <li>Appointment reminders</li>
+                        <li>Service follow-ups</li>
+                        <li>Stock alerts</li>
+                        <li>Customizable settings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How TechnicianApp Works</h2>
+            <p class="section-subtitle">Simple steps to transform your business management</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Download & Install</h3>
+                        <p>Get the APK file and install it on your Android device. No complicated setup required.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Set Up Your Profile</h3>
+                        <p>Create your account and customize settings to match your business needs.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Add Your Customers</h3>
+                        <p>Import existing customer data or add new customers to your database.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Start Managing</h3>
+                        <p>Begin scheduling appointments, tracking inventory, and generating invoices.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--<div class="demo-video">
+                <div class="video-placeholder">
+                    <i class="fas fa-play"></i>
+                    <p>App Demo Video</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Download TechnicianApp</h2>
+            <p class="section-subtitle">Get started with the latest version of our business management app</p>
+            
+            <div class="download-content">
+                <div class="download-info">
+                    <h3>App Details</h3>
+                    <ul class="app-details">
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            <span><strong>Platform:</strong> Android 8.0+</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-download"></i>
+                            <span><strong>Size:</strong> 38.2 MB</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-code-branch"></i>
+                            <span><strong>Version:</strong> 2.1.0</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-calendar"></i>
+                            <span><strong>Updated:</strong> October 2025</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="requirements">
+                        <h4>Requirements:</h4>
+                        <ul>
+                            <li>Android 8.0 (Oreo) or higher</li>
+                            <li>Internet connection for cloud sync</li>
+                            <li>Camera (for barcode scanning)</li>
+                            <li>Location services (for route planning)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>TechnicianApp</h3>
+                        <p>Business Management Tool</p>
+                    </div>
+                    
+                    <div class="download-stats">
+                        <div class="stat">
+                            <span class="number">5,000+</span>
+                            <span class="label">Downloads</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">4.7</span>
+                            <span class="label">Rating</span>
+                        </div>
+                    </div>
+                    
+                    <a href="technician-app.apk" class="download-btn" download>
+                        <i class="fas fa-download"></i>
+                        Download APK
+                    </a>
+                    
+                    <div class="download-note">
+                        <p><i class="fas fa-shield-alt"></i> Secure & Verified</p>
+                        <p><i class="fas fa-sync"></i> Free Lifetime Updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have questions or need support? We're here to help.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>support@technicianapp.com</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-file-alt"></i>
+                        <div>
+                            <h4>Documentation</h4>
+                            <p>User guides and tutorials</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-tools"></i>
+                        <span>TechnicianApp</span>
+                    </div>
+                    <p>Powerful business management tools for technicians and service professionals.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <!--<li><a href="#">Blog</a></li>-->
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="tos.html">Terms of Service</a></li>
+                        <li><a href="cookie.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechnicianApp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
